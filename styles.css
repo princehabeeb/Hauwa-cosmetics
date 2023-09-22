@@ -39,6 +39,7 @@ header{
     height: 90px;
     position: fixed;
     top: 0;
+    z-index: 99999;
 }
 
 nav{
@@ -50,6 +51,7 @@ nav{
     /* background: red; */
     padding: 20px;
     position: relative;
+    z-index: 99999999;
 }
 
 nav ul{
@@ -176,6 +178,11 @@ nav span{
     cursor: pointer;
 }
 
+
+header.bg{
+    background-color: #0B728B;
+    z-index: 999;
+  }
 .reduce{
     border-bottom-left-radius: 90px;
 }
@@ -187,6 +194,158 @@ nav span{
 .fa-star, .fa-star-half{
     color: gold;
 }
+
+.best-cusmetics{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.best-cusmetics h1{
+   font-size: 50px;
+   text-align: center;
+}
+
+.best-cusmetics p{
+    font-size: 20px;
+    color: #121212;
+    text-align: center;
+ }
+
+ .best-cusmetics-1{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+ }
+
+ .best-cusmetics-2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 10px;
+ }
+
+ .best-cusmetics-1 h1{
+    font-size: 50px;
+ }
+
+ .best-cusmetics-1 p{
+    font-size: 20px;
+ }
+
+ .best-cusmetics-2 h1{
+    font-size: 50px;
+ }
+
+ .best-cusmetics-2 p{
+    font-size: 20px;
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
