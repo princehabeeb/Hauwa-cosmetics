@@ -56,8 +56,13 @@ nav  a:hover{
    border-bottom: 1px solid #000;
 }
 
+.icons{
+    display: flex;
+}
+
 nav i{
     padding: 10px;
+    cursor: pointer;
     /* background: red; */
 }
 
@@ -71,7 +76,7 @@ nav span{
 
 
 .home{
-    margin: 90px;
+    margin-top: 90px;
     display: grid;
     height: calc(100vh - 90px);
     align-items: center;
@@ -159,6 +164,7 @@ nav span{
         align-items: center;
         grid-template-columns: auto;
         grid-gap:18px;
+        padding: 10px;
     }
 
     nav{
@@ -167,6 +173,8 @@ nav span{
 
     #bars{
         display: block;
+        background-color: #0B728B;
+        color: #fff;
     }
 
     nav ul{
@@ -178,6 +186,7 @@ nav span{
         width: 100%;
         height: calc(100vh - 90px);
         z-index: 1;
+        display: none;
     }
 
 
@@ -188,4 +197,17 @@ nav span{
     nav a:hover{
         border: none;
     }
+
+    .logo-img{
+        font-size: 19px;
+    }
+
+    .h1-desk{
+        display: none;
+    }
+
+    .h1-mobile{
+        display: block;
+    }
 }
+
