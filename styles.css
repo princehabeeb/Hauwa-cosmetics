@@ -220,6 +220,8 @@ header.bg{
     padding: 10px;
  }
 
+
+
  .best-cusmetics-2{
     display: flex;
     flex-direction: row-reverse;
@@ -246,7 +248,22 @@ header.bg{
     font-size: 20px;
  }
  
+.why-us{
+    width: 80%;
+    height: 80px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.why-us h6{
+    font-size: 19px;
+}
+
+.why-us p{
+    font-size: 30px;
+}
 
 
 
