@@ -473,5 +473,24 @@ header.bg{
         padding-left: 0px;
         font-size: 12px;
     }
+
+    .best-cusmetics{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .best-cusmetics-1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+     }
+
+     .best-cusmetics-2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+     }
 }
 
