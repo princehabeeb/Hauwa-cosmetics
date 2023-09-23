@@ -265,6 +265,17 @@ header.bg{
     font-size: 30px;
 }
 
+.learn-more{
+    width: 80%;
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin: 0 auto;
+    height: 30vh;
+}
+
 
 
 
