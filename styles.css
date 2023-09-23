@@ -327,7 +327,28 @@ header.bg{
     padding: 10px;
 }
 
+.more-2{
+    width: 90%;
+    margin: 0 auto;
+    height: 219px;
+    background-color: #7CCDE1;
+    display: flex;
+    justify-content: space-around;
+}
 
+.more-2 div{
+    padding: 40px;
+    width: 50%;
+}
+
+.more-2 h1{
+    font-size: 34px;
+}
+
+.more-2 img{
+    width: 100%;
+    margin-top: -200px;
+}
 
 
 
@@ -608,11 +629,30 @@ header.bg{
 
      .story{
        flex-direction: column;
+       
+    }
+
+    .story-text{
+margin-bottom: 200px;
     }
 
     .story div{
         width: 100%;
      }
+
+     .more-2{
+        height: auto;
+        flex-direction: column;
+        margin-top: 280px;
+    }
+
+    .more-2 div{
+      width: 100%;
+    }
     
+    .more-2 img{
+        width: 100%;
+        margin-top: 0;
+    }
 }
 
