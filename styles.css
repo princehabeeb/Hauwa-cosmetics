@@ -273,10 +273,26 @@ header.bg{
     grid-template-columns: auto auto;
     align-items: center;
     margin: 0 auto;
-    height: 30vh;
+    height: calc(100vh - 90px);
 }
 
+.learn-more div img{
+    width: 100%;
+}
 
+.sponsors{
+    width: 80%;
+    height: 40px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 20px auto;
+    /* padding: 20px; */
+}
+
+.sponsors img{
+   width: 60%;
+   height: 100%;
+}
 
 
 
@@ -520,5 +536,28 @@ header.bg{
         width: 100%;
         padding: 10px;
      }
+
+     .learn-more{
+        width: 100%;
+        /* display: flex;
+        justify-content: space-between; */
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .why-us{
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    
 }
 

@@ -1,7 +1,10 @@
 const hamburger = document.getElementById('bars');
 const menu = document.querySelector('.menu');
 const nav = document.querySelector('.nav-header');
+// console.log(cost);
 
+const add = document.querySelector('.increase');
+const reduce = document.querySelector('.reduce');
 
 // Responsive sidebar toggler
 hamburger.addEventListener('click', () => {
@@ -19,5 +22,21 @@ window.addEventListener('scroll', () => {
     }
 
     
-})
+});
 
+// Add and reduce cost price
+
+add.addEventListener('click', () => {
+let cost = document.querySelector('.cost').innerHTML;
+// console.log(cost);
+
+ let  value = 2000;
+ value = value * 2;
+ cost = value;
+
+ console.log(cost);
+//    console.log(n);
+   
+
+//    console.log(cost);
+});
